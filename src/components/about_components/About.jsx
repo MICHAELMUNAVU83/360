@@ -35,7 +35,7 @@ const About = () => {
         <div class="w-[37%]">
           <img
             class="w-[100%] h-[477px] object-cover"
-            src="/Rectangle 2.png"
+            src="/Rectangle2.png"
             alt="Rectangle 2"
           />
         </div>

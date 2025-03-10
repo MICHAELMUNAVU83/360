@@ -12,11 +12,13 @@ const Hero = () => {
         }}
       >
         <div class="flex flex-col w-[40%] items-start gap-5">
-          <p>Revolutionizing Recruitment, One Match at a Time</p>
+          <p>Welcome to 360 Staffing!</p>
           <p>
-            Whether you need skilled professionals for long-term roles,
-            semi-skilled workers for project-based assignments, or end-to-end HR
-            solutions for your organization, we’ve got you covered.
+            At 360 Staffing, we are revolutionizing the way businesses connect
+            with talent. Whether you need skilled professionals for long-term
+            roles, semi-skilled workers for project-based assignments, or
+            end-to-end HR solutions for your organization, we’ve got you
+            covered.
           </p>
           <button class="bg-[#0F1D33] text-white rounded-md p-3">
             Explore Services
