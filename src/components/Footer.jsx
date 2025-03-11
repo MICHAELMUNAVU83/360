@@ -1,31 +1,49 @@
 import React from "react";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
     <div>
-      <p class="bg-[#0F1D33] w-[100%] my-4 rounded-3xl h-[40px] " />
-      <div class="w-[100%] flex justify-between">
-        <div class="flex flex-col gap-2">
-          <img src="/logo.png" class="w-[184px] object-contain" alt="Group 1" />
-          <div class="flex gap-4 items-center">
+      <p class="bg-[#0F1D33]  w-[100%] my-4 rounded-3xl h-[40px] " />
+      <div class="w-[100%] py-8 flex justify-between">
+        <div class="flex flex-col gap-2 items-start">
+          <img src="/logo.png" class="h-[80px] object-contain" />
+          <div class="flex gap-4 text-[#E1C598] ibm-500 items-center">
             <p>Copyright</p>
             <p>Terms and Conditions</p>
           </div>
-          <p>@pyrauslimited. All Rights Reserved</p>
         </div>
 
         <div class="flex gap-3 items-start">
-          <div class="px-2  border-l-[1px] border-r-[1px] flex flex-col gap-2 ">
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
+          <div class="pr-8 pl-2  border-r-[1px] ibm-500 border-l-[1px] border-black flex flex-col gap-2 ">
+            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+              Home
+            </p>
+            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+              About Us
+            </p>
+            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+              Services
+            </p>
+            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+              Contact Us
+            </p>
           </div>
           <div class="px-2">
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
-            <p>Job Seekers</p>
+            <div class="flex ibm-500 gap-2 items-center">
+              <FaLinkedin class="text-[#E1C598] text-3xl" />
+              360 Recruit
+            </div>
+            <div class="flex ibm-500 gap-2 items-center">
+              <FaXTwitter class="text-[#E1C598] text-3xl" />
+              360 Recruit
+            </div>
+            <div class="flex ibm-500 gap-2 items-center">
+              <MdEmail class="text-[#E1C598] text-3xl" />
+              brenda@360recruit.org
+            </div>
           </div>
         </div>
       </div>
