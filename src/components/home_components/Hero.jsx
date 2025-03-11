@@ -1,9 +1,12 @@
 import React from "react";
-
 import { FaArrowRight } from "react-icons/fa";
+import Navbar from "../Navbar";
 const Hero = () => {
   return (
-    <div>
+    <div class="relative mt-12">
+      <div class="absolute w-[100%]  h-[90px] -top-12">
+        <Navbar />
+      </div>
       <div
         className="w-full h-screen bg-[#f5f5f5]  flex pl-12 items-center"
         style={{

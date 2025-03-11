@@ -4,6 +4,10 @@
   padding-right: 40px;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .mohave-700 {
   font-family: "Mohave", sans-serif;
   font-optical-sizing: auto;

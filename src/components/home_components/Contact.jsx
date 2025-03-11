@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div class="flex justify-between w-[100%] items-start">
         <div class="w-[60%] flex flex-col gap-4">
           <div class="pl-12 mohave-700 leading-[56px] text-[50px] ">

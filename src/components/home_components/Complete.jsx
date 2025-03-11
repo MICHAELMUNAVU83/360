@@ -2,7 +2,7 @@ import React from "react";
 
 const Complete = () => {
   return (
-    <div class="pl-12 mt-5 w-[100%]">
+    <div id="services" class="pl-12 mt-5 w-[100%]">
       <div class="w-[100%] flex flex-col items-start gap-0">
         <p class="mohave-700 leading-[56px] text-[50px]">
           Your Complete HR Solution -
