@@ -2,12 +2,12 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-
+import { Link } from "react-router";
 const Footer = () => {
   return (
     <div>
       <p class="bg-[#0F1D33]  w-[100%] my-4 rounded-3xl h-[40px] " />
-      <div class="w-[100%] py-8 flex justify-between">
+      <div class="w-[100%] py-8 flex md:flex-row flex-col gap-5  flex justify-between">
         <div class="flex flex-col gap-2 items-start">
           <img src="/logo.png" class="h-[80px] object-contain" />
           <div class="flex gap-4 text-[#E1C598] ibm-500 items-center">
@@ -18,18 +18,30 @@ const Footer = () => {
 
         <div class="flex gap-3 items-start">
           <div class="pr-8 pl-2  border-r-[1px] ibm-500 border-l-[1px] border-black flex flex-col gap-2 ">
-            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+            <Link
+              to="/"
+              class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer"
+            >
               Home
-            </p>
-            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+            </Link>
+            <Link
+              to="/about"
+              class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer"
+            >
               About Us
-            </p>
-            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+            </Link>
+            <a
+              href="/#services"
+              class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer"
+            >
               Services
-            </p>
-            <p class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer">
+            </a>
+            <a
+              href="/#contact"
+              class="hover:text-[#E1C598] ease-in-out duration-500 cursor-pointer"
+            >
               Contact Us
-            </p>
+            </a>
           </div>
           <div class="px-2">
             <div class="flex ibm-500 gap-2 items-center">

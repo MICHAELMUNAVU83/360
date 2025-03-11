@@ -3,19 +3,19 @@ import { FaArrowRight } from "react-icons/fa";
 const About = () => {
   return (
     <div>
-      <div class="pl-12 flex justify-between w-[100%] items-start">
-        <div class="w-[60%] flex flex-col gap-6">
-          <p class="mohave-700 text-[50px]">About Us</p>
+      <div class="md:pl-12 pl-4 flex justify-between w-[100%] md:flex-row flex-col-reverse gap-8 items-start">
+        <div class="md:w-[60%] w-[100%] flex flex-col gap-6">
+          <p class="mohave-700 hidden md:block text-[50px]">About Us</p>
 
           <div class="flex flex-col gap-5">
-            <p class="ibm-300 text-[20px]">
+            <p class="ibm-300 text-[18px] md:text-[20px]">
               We are a Kenyan-based recruitment firm specializing in providing
               skilled and unskilled labor solutions both locally and
               internationally. We aim to connect businesses with top talent in
               various industries, ensuring smooth recruitment processes and
               successful outcomes for all stakeholders.
             </p>
-            <p class="ibm-300 text-[20px]">
+            <p class="ibm-300 text-[18px] md:text-[20px]">
               We specialize in Fractional Talent Acquisition, HR Digitization,
               and Global Recruitment Solutions for organizations across Europe,
               Africa, Asia, and the Gulf. From managing remote tech teams in
@@ -32,11 +32,15 @@ const About = () => {
           </div>
         </div>
 
-        <div class="w-[37%]">
-          <img class="w-[100%] h-[477px] object-cover" src="/aboutimg.png" />
+        <div class="md:w-[37%] w-[100%]">
+          <p class="mohave-700  md:hidden block text-[50px]">About Us</p>
+          <img
+            class="w-[100%] md:h-[477px] h-[400px] object-cover"
+            src="/aboutimg.png"
+          />
         </div>
       </div>
-      <p class="bg-[#0F1D33] w-[100%] my-4 rounded-3xl h-[40px] " />
+      <p class="bg-[#0F1D33] w-[100%] my-4 rounded-3xl h-[25px] " />
     </div>
   );
 };

@@ -4,6 +4,13 @@
   padding-right: 40px;
 }
 
+@media (max-width: 768px) {
+  :root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 html {
   scroll-behavior: smooth !important;
 }
