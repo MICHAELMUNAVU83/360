@@ -5,17 +5,17 @@ const About = () => {
     <div>
       <div class="md:pl-12 pl-4 flex justify-between w-[100%] md:flex-row flex-col-reverse gap-8 items-start">
         <div class="md:w-[60%] w-[100%] flex flex-col gap-6">
-          <p class="mohave-700 hidden md:block text-[50px]">About Us</p>
+          <p class="mohave-700 hidden md:block text-[40px]">About Us</p>
 
           <div class="flex flex-col gap-5">
-            <p class="ibm-300 text-[18px] md:text-[20px]">
+            <p class="ibm-300 text-[18px] ">
               We are a Kenyan-based recruitment firm specializing in providing
               skilled and unskilled labor solutions both locally and
               internationally. We aim to connect businesses with top talent in
               various industries, ensuring smooth recruitment processes and
               successful outcomes for all stakeholders.
             </p>
-            <p class="ibm-300 text-[18px] md:text-[20px]">
+            <p class="ibm-300 text-[18px] ">
               We specialize in Fractional Talent Acquisition, HR Digitization,
               and Global Recruitment Solutions for organizations across Europe,
               Africa, Asia, and the Gulf. From managing remote tech teams in

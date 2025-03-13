@@ -7,7 +7,7 @@ const Philosophy = () => {
       <div class="md:pl-12 pl-4 flex md:flex-row flex-col gap-4 justify-between w-[100%] items-start">
         <div class="md:w-[45%] w-[100%] flex flex-col gap-4">
           <div class="flex flex-col gap-2">
-            <p class="mohave-700 leading-[40px]  text-[50px]">Our Philosophy</p>
+            <p class="mohave-700 leading-[40px]  text-[40px]">Our Philosophy</p>
             <p class="ibm-500">Why do we do things the way we do?</p>
           </div>
           <div class="flex relative gap-2 items-center">
@@ -91,13 +91,13 @@ const Philosophy = () => {
                   />
                   <div class="bg-[#822234]/80 w-[100%] rounded-[50px] absolute h-[477px]">
                     <div class="flex text-white flex-col justify-center items-start px-4 h-[100%] gap-1">
-                      <p class="mohave-700 leading-[56px] text-[80px] md:text-[96px]">
+                      <p class="mohave-700 leading-[56px] text-[80px] md:text-[72px]">
                         15 Years +
                       </p>
-                      <p class="mohave-700  text-[28px] md:text-[32px]">
+                      <p class="mohave-700  text-[28px] ">
                         Of Recruiting and HR Experience
                       </p>
-                      <p class="ibm-400 text-[18px] md:text-[20px]">
+                      <p class="ibm-400 text-[18px] ">
                         Our team of experts brings over 15 years of combined
                         experience in Human Resource services, specializing in
                         International recruitment. We have built strong
