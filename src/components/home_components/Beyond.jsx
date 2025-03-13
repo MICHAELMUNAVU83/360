@@ -11,10 +11,10 @@ const Beyond = () => {
         />
         <div class="bg-[#862638]/90 rounded-[50px] w-[100%] h-[200px] bg-opacity-50 absolute">
           <div class="flex flex-col gap-1 items-start px-12 h-[100%] justify-center">
-            <p class="mohave-700 md:leading-[56px] text-[28px] md:text-[50px] text-white">
+            <p class="mohave-700 md:leading-[56px] text-[28px] md:text-[40px] text-white">
               Beyond Filling Roles –
             </p>
-            <p class="ibm-400 text-white text-[16px] md:text-[24px]">
+            <p class="ibm-400 text-white text-[16px] md:text-[20px]">
               Shaping Careers and Driving Goals!
             </p>
           </div>
@@ -22,16 +22,16 @@ const Beyond = () => {
       </div>
       <div class="w-[100%] mt-6">
         <div class="flex  w-[100%] flex-col gap-1 items-start pl-4 md:pl-12 h-[100%] justify-center">
-          <p class="mohave-700 text-[40px] md:leading-[56px] md:text-[50px] ">
+          <p class="mohave-700 text-[40px] md:leading-[56px] md:text-[40px] ">
             Why 360 Recruit?
           </p>
-          <p class="ibm-400 text-[16px]  md:text-[24px]">
+          <p class="ibm-400 text-[16px]  md:text-[20px]">
             From Hiring, To Retention and Team Support
           </p>
         </div>
         <div class="w-[100%] mt-8 md:pl-12 pl-4 mb-12 grid md:grid-cols-2 gap-8">
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why1.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
@@ -51,7 +51,7 @@ const Beyond = () => {
             </div>
           </div>
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why2.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
@@ -71,7 +71,7 @@ const Beyond = () => {
             </div>
           </div>
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why3.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
@@ -91,7 +91,7 @@ const Beyond = () => {
             </div>
           </div>
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why4.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"

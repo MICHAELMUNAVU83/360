@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
 import { Link } from "react-router";
 const Footer = () => {
   return (
@@ -43,18 +44,18 @@ const Footer = () => {
               Contact Us
             </a>
           </div>
-          <div class="px-2">
+          <div class="px-2 flex flex-col gap-4">
             <div class="flex ibm-500 gap-2 items-center">
               <FaLinkedin class="text-[#E1C598] text-3xl" />
               360 Recruit
             </div>
             <div class="flex ibm-500 gap-2 items-center">
-              <FaXTwitter class="text-[#E1C598] text-3xl" />
-              360 Recruit
+              <FaPhone class="text-[#E1C598] text-3xl" />
+              +254 793 360 360
             </div>
             <div class="flex ibm-500 gap-2 items-center">
               <MdEmail class="text-[#E1C598] text-3xl" />
-              brenda@360recruit.org
+              recruit@360recruit.org
             </div>
           </div>
         </div>

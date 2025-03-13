@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="contact">
       <div class="flex justify-between md:flex-row flex-col-reverse gap-4 w-[100%] items-start">
         <div class="md:w-[60%] w-[100%] flex flex-col gap-4">
-          <div class="pl-12 mohave-700 leading-[56px] text-[50px] ">
+          <div class="pl-12 mohave-700 leading-[56px] text-[40px] ">
             Contact Us
           </div>
           <form class="w-[100%] flex flex-col gap-4 ">
@@ -57,13 +57,13 @@ const Contact = () => {
               />
               <div class="bg-[#822234]/80 w-[100%] rounded-[50px] absolute h-[477px]">
                 <div class="flex text-white flex-col justify-center items-start px-4 h-[100%] gap-1">
-                  <p class="mohave-700 leading-[56px] text-[80px]  md:text-[96px]">
+                  <p class="mohave-700 leading-[56px] text-[80px]  md:text-72px]">
                     15 Years +
                   </p>
-                  <p class="mohave-700 text-[30px]  md:text-[32px]">
+                  <p class="mohave-700 text-[30px]">
                     Of Recruiting and HR Experience
                   </p>
-                  <p class="ibm-400 text-[18px] md:text-[20px]">
+                  <p class="ibm-400 text-[18px]">
                     Our team of experts brings over 15 years of combined
                     experience in Human Resource services, specializing in
                     International recruitment. We have built strong

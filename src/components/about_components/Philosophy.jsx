@@ -11,7 +11,7 @@ const Philosophy = () => {
             <p class="ibm-500">Why do we do things the way we do?</p>
           </div>
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why1.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
@@ -31,7 +31,7 @@ const Philosophy = () => {
             </div>
           </div>
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why3.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
@@ -60,7 +60,7 @@ const Philosophy = () => {
         </div>
         <div class="md:w-[40%] w-[100%] flex flex-col gap-4">
           <div class="flex relative gap-2 items-center">
-            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+            <div class="border-[3px] border-[#862638] rounded-[25px] w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center">
               <img
                 src="/why2.png"
                 class="md:h-[70px] md:w-[70px] h-[40px] w-[40px]"
